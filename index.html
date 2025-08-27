@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>    
+</head>
+<body>       
+    <div>
+        <!-- Part 1: Mastering Javascript Basics -->
+        <h2>EA Capitals Quiz</h2>
+        <div id="capitals-quiz">
+            <p>Do you know your East African capitals?</p>
+            <div>
+                <p>What is the capital of <span class="picked-country"></span>?</p>
+            </div>
+            <div>
+                <div id="user-actions">
+                    <input id="capital-answer-input" type="text">
+                    <button id="submit-capital" disabled="true" >Submit Answer</button>
+                </div>
+                <div id="response" class="hidden">
+                    <div id="feedback">
+                        <p id="answer-response">You're answer is <span id="result"></span>!</p>                
+                        <p>The capital of <span class="picked-country"></span> is <span id="answer"></span>.</p>
+                        <button id="attempt-another">Attempt Another</button>
+                    </div>                                                
+                </div>                        
+            </div>
+        </div>
+        <!-- End of Part 1 -->
+
+        <!-- Part 3: JS loops -->
+        <h2>Symmetric Rainbow</h2>
+        <div id="rainbow">
+            <div class="rainbow-color" id="bar-1"></div>
+            <div class="rainbow-color" id="bar-2"></div>
+            <div class="rainbow-color" id="bar-3"></div>
+            <div class="rainbow-color" id="bar-4"></div>
+            <div class="rainbow-color" id="bar-5"></div>
+            <div class="rainbow-color" id="bar-6"></div>
+            <div class="rainbow-color" id="bar-7"></div>
+        </div>        
+        <!-- End of part 3  -->
+        
+        <!-- Part 4: DOM  -->
+
+
+        <div id="bouncing-ball">
+            <h2>Kinetic Ball</h2>
+            <div id="controls">                
+                <button id="simulation-start-btn">Start</button>
+                <button id="simulation-stop-btn" disabled="true">Stop</button>
+                <button id="change-ball-color-btn">Switch Color</button>
+                <button id="speed-up-btn" disabled="true">Speed Up</button>
+                <button id="slow-down-btn" disabled="true">Slow Down</button>
+            </div>     
+            <div id="ball-container">
+                <div id="ball"></div>
+            </div>                             
+        </div>
+        <!-- End of Part 4 -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
